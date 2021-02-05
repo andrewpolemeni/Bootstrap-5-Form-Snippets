@@ -13,8 +13,8 @@ This repository was created to make it faster to implement forms with quality an
 ![Image of Snippets]()
 
 # Snippets
-Trigger | Description 
---- | --- 
+Trigger | Description
+--- | ---
 *fg-blank |
 *fg-full-name |
 *fg-middle-name |

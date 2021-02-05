@@ -1,14 +1,28 @@
 {
 	"name": "bootstrap-5-form-snippets",
-	"displayName": "Bootstrap 5 Form Snippets",
-	"description": "Over 25 Generic Bootstrap 5 Form Inputs",
+	"displayName": "Bootstrap-5-form-snippets 5 Form Snippets",
+	"description": "Over 25 Generic Bootstrap 5 Form Fields",
 	"version": "0.0.1",
 	"publisher": "Andrew Polemeni",
 	"license":"MIT",
-	"homepage":"",
-	"icon": "images/icon.png",
+	"homepage": "https://github.com/andrewpolemeni/Bootstrap-5-Form-Snippets",
+	"icon": "images/icons-hero.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andrewpolemeni/Bootstrap-5-Form-Snippets"
+	},
 	"engines": {
-		"vscode": "^0.10.1"
+		"vscode": "^0.10.x"
+	},
+	"devDependencies": {
+		"json-concat": "^0.0.1"
+	},
+	"scripts": {
+		"concat": "node_modules\\.bin\\json-concat snippets/types/*.json snippets/snippets.json",
+		"package": "npx vsce package",
+		"snip": "code --install-extension bootstrap-5-form-snippets-0.0.1.vsix",
+		"test": "npx vsce package && npm run snip",
+		"prePublish": "npm run concat && npx vsce package && npm run snip"
 	},
 	"galleryBanner": {
         "color": "#ffffff",
@@ -18,30 +32,95 @@
 		"Snippets"
 	],
 	"contributes": {
-		"snippets": [{
-			"language": "javascript",
-			"path": "./snippets/javascript.json"
-		},
-		{
-			"language": "pug",
-			"path": "./snippets/javascript.json"
-		},
-		{
-			"language": "jade",
-			"path": "./snippets/javascript.json"
-		},
-		{
+		"snippets": [
+		  {
+			"language": "blade",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "ejs",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
 			"language": "html",
-			"path": "./snippets/javascript.json"
-		}
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "handlebars",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "latte",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "php",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "plaintext",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "razor",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "tpl",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "typescript",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "typescriptreact",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "javascriptreact",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "javascript",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "twig",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "vue",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "vue-html",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "django-html",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "jinja-html",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "erb",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "HTML (Eex)",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "volt",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  },
+		  {
+			"language": "nunjucks",
+			"path": "./snippets/bootstrap-5-form-snippets.json"
+		  }
 		]
-	},
-	"scripts": {
-		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
-	},
-	"devDependencies": {
-		"typescript": "^1.6.2",
-		"vscode": "0.10.x"
 	}
 }
