@@ -13,31 +13,33 @@ This repository was created to make it faster to implement forms with quality an
 ![Image of Snippets]()
 
 # Snippets
-*fg-blank
-*fg-full-name
-*fg-middle-name
-*fg-last-name
-*fg-email
-*fg-phone
-*fg-street-address
-*fg-street-1
-*fg-street-2
-*fg-street-3
-*fg-city
-*fg-state
-*fg-country
-*fg-county
-*fg-id
-*fg-major
-*fg-gpa
-*fg-signature
-*fg-date
-*fg-time
-*fg-select
-*fg-file-upload
-*fg-amount
-*fg-radio-button
-*fg-checkbox
+Trigger | Description 
+--- | --- 
+*fg-blank |
+*fg-full-name |
+*fg-middle-name |
+*fg-last-name |
+*fg-email |
+*fg-phone |
+*fg-street-address |
+*fg-street-1 |
+*fg-street-2 |
+*fg-street-3 |
+*fg-city |
+*fg-state |
+*fg-country |
+*fg-county |
+*fg-id |
+*fg-major |
+*fg-gpa |
+*fg-signature |
+*fg-date |
+*fg-time |
+*fg-select |
+*fg-file-upload |
+*fg-amount |
+*fg-radio-button |
+*fg-checkbox |
 
 ## Source
 
