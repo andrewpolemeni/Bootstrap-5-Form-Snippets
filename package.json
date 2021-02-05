@@ -1,11 +1,11 @@
 {
-	"name": "jquerysnippets",
-	"displayName": "jQuery Code Snippets",
-	"description": "Over 130 jQuery Code Snippets",
+	"name": "bootstrap-5-form-snippets",
+	"displayName": "Bootstrap 5 Form Snippets",
+	"description": "Over 25 Generic Bootstrap 5 Form Inputs",
 	"version": "0.0.1",
-	"publisher": "donjayamanne",
+	"publisher": "Andrew Polemeni",
 	"license":"MIT",
-	"homepage":"https://github.com/DonJayamanne/jquerysnippets/blob/master/README.md",
+	"homepage":"",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^0.10.1"
