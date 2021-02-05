@@ -271,5 +271,15 @@
 			"</div>"
 		],
 		"description": "Bootstrap Checkbox Form Check"
+	},
+	"Bootstrap 5: Text Area": {
+		"prefix": "*fc-textarea",
+		"body": [
+			"<div class=\"form-check mb-3\">",
+			"    <label id=\"$1_label\" for=\"$1\" class=\"required\">$2</label>",
+			"    <textarea id=\"$1\" name=\"$1\" rows=\"5\" class=\"form-control\"></textarea>",
+			"</div>"
+		],
+		"description": "Bootstrap Checkbox Form Check"
 	}
 }
