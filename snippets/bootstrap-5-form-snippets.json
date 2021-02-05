@@ -233,7 +233,7 @@
 			"    <div class=\"custom-file\">",
 			"        <div class=\"input-group mb-3\">",
             "            <input id=\"file_upload\" name=\"file_upload\" type=\"file\" class=\"custom-file-input form-control\" aria-label=\"File Upload\" />",
-        	"        </div",
+        	"        </div>",
 			"    </div>",
 			"</div>"
 		],
@@ -244,11 +244,10 @@
 		"body": [
 			"<div class=\"amount\">",
 			"    <label id=\"amount_label\" for=\"amount\">Amount</label>",
-			"        <div class=\"input-group mb-3\">",
-			"            <div class=\"input-group-text\">$</div>",
-            "            <input id=\"amount\" name=\"amount\" type=\"file\" class=\"custom-file-input form-control\" />",
-        	"        </div",
-			"    </div>",
+			"    <div class=\"input-group mb-3\">",
+			"        <div class=\"input-group-text\">$</div>",
+            "        <input id=\"amount\" name=\"amount\" type=\"number\" class=\"form-control\" value=\"0.00\" aria-label=\"Total Amount\" />",
+        	"    </div>",
 			"</div>"
 		],
 		"description": "Bootstrap Amount Form Field"

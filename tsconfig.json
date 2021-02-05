@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "ES6",
-		"outDir": "out",
+		"outFiles": ["/test"],
 		"noLib": true,
 		"sourceMap": true
 	},
