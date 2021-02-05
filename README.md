@@ -10,8 +10,6 @@ Just type the letters '*fg' or '*fc' to get a list of all Bootstrap Form Snippet
 
 This repository was created to make it faster to implement forms with quality and best HTML standards.
 
-![Image of Snippets]()
-
 # Snippets
 Trigger | Description
 --- | ---

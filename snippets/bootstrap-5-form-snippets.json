@@ -129,7 +129,7 @@
 		],
 		"description": "State Form Group"
 	},
-	"Bootstrap Country Form Group": {
+	"Bootstrap 5: Country Form Group": {
 		"prefix": "*fg-country",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -139,7 +139,7 @@
 		],
 		"description": "Country Form Field"
 	},
-	"Bootstrap County Form Group": {
+	"Bootstrap 5: County Form Group": {
 		"prefix": "*fg-county",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -149,7 +149,7 @@
 		],
 		"description": "County Form Field"
 	},
-	"Bootstrap ID Form Group": {
+	"Bootstrap 5: ID Form Group": {
 		"prefix": "*fg-id",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -159,7 +159,7 @@
 		],
 		"description": "Bootstrap ID Form Field"
 	},
-	"Bootstrap Major Form Group": {
+	"Bootstrap 5: Major Form Group": {
 		"prefix": "*fg-major",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -169,7 +169,7 @@
 		],
 		"description": "Bootstrap Major Form Field"
 	},
-	"Bootstrap GPA Form Group": {
+	"Bootstrap 5: GPA Form Group": {
 		"prefix": "*fg-gpa",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -179,7 +179,7 @@
 		],
 		"description": "Bootstrap GPA Form Field"
 	},
-	"Bootstrap Signature Form Group": {
+	"Bootstrap 5: Signature Form Group": {
 		"prefix": "*fg-signature",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -189,7 +189,7 @@
 		],
 		"description": "Bootstrap Signature Form Field"
 	},
-	"Bootstrap Date Form Group": {
+	"Bootstrap 5: Date Form Group": {
 		"prefix": "*fg-date",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -199,7 +199,7 @@
 		],
 		"description": "Bootstrap Date Form Field"
 	},
-	"Bootstrap Time Form Group": {
+	"Bootstrap 5: Time Form Group": {
 		"prefix": "*fg-time",
 		"body": [
 			"<div class=\"mb-3\">",
@@ -209,7 +209,7 @@
 		],
 		"description": "Bootstrap Time Form Field"
 	},
-	"Bootstrap Select": {
+	"Bootstrap 5: Select": {
 		"prefix": "*fg-select",
 		"body": [
 			"<div class=\"select\">",
@@ -225,7 +225,7 @@
 		],
 		"description": "Bootstrap Select Form Field"
 	},
-	"Bootstrap File Upload": {
+	"Bootstrap 5: File Upload": {
 		"prefix": "*fg-file-upload",
 		"body": [
 			"<div class=\"file-upload\">",
@@ -239,7 +239,7 @@
 		],
 		"description": "Bootstrap File Form Field"
 	},
-	"Bootstrap Amount": {
+	"Bootstrap 5: Amount": {
 		"prefix": "*fg-amount",
 		"body": [
 			"<div class=\"amount\">",
@@ -253,7 +253,7 @@
 		],
 		"description": "Bootstrap Amount Form Field"
 	},
-	"Bootstrap Radio Button Form Check": {
+	"Bootstrap 5: Radio Button Form Check": {
 		"prefix": "*fc-radio-button",
 		"body": [
 			"<div class=\"form-check mb-3\">",
@@ -263,7 +263,7 @@
 		],
 		"description": "Bootstrap Radio Button Form Check"
 	},
-	"Bootstrap Checkbox Form Check": {
+	"Bootstrap 5: Checkbox Form Check": {
 		"prefix": "*fc-checkbox",
 		"body": [
 			"<div class=\"form-check mb-3\">",
