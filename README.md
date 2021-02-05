@@ -1,6 +1,6 @@
 # Bootstrap 5 Form Snippets
 
-Over Bootstrap Form Snippets for JavaScript code.
+Bootstrap Form Snippets for Faster Form Building.
 
 Just type the letters '*fg' or '*fc' to get a list of all Bootstrap Form Snippets.
 
