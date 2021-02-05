@@ -14,7 +14,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"full_name_label\" for=\"full_name\">Full Name</label>",
-			"    <input id=\"full_name\" name=\"full_name\" type=\"text\" class=\"form-control\" aria-label=\"Full Name\" />",
+			"    <input id=\"full_name\" name=\"full_name\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Full Name Form Group"
@@ -24,7 +24,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"first_name_label\" for=\"first_name\">First Name</label>",
-			"    <input id=\"first_name\" name=\"first_name\" type=\"text\" class=\"form-control\" aria-label=\"First Name\" />",
+			"    <input id=\"first_name\" name=\"first_name\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "First Name Form Group"
@@ -34,7 +34,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"middle_name_label\" for=\"middle_name\">Middle Name</label>",
-			"    <input id=\"middle_name\" name=\"middle_name\" type=\"text\" class=\"form-control\" aria-label=\"Middle Name\" />",
+			"    <input id=\"middle_name\" name=\"middle_name\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Middle Name Form Group"
@@ -44,7 +44,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"last_name_label\" for=\"last_name\">Last Name</label>",
-			"    <input id=\"last_name\" name=\"last_name\" type=\"text\" class=\"form-control\" aria-label=\"Last Name\" />",
+			"    <input id=\"last_name\" name=\"last_name\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Last Name Form Group"
@@ -54,7 +54,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"email_label\" for=\"email\">Email Address</label>",
-			"    <input id=\"email\" name=\"email\" type=\"email\" class=\"form-control\" aria-label=\"Email Address\" />",
+			"    <input id=\"email\" name=\"email\" type=\"email\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Email Form Group"
@@ -64,7 +64,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"phone_label\" for=\"phone\">Phone Number</label>",
-			"    <input id=\"phone\" name=\"phone\" type=\"tel\" class=\"form-control\" aria-label=\"Phone Number\" />",
+			"    <input id=\"phone\" name=\"phone\" type=\"tel\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Phone Number Form Group"
@@ -74,7 +74,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"street_address_label\" for=\"street_address\">Street Address</label>",
-			"    <input id=\"street_address\" name=\"street_address\" type=\"text\" class=\"form-control\" aria-label=\"Street Address\" />",
+			"    <input id=\"street_address\" name=\"street_address\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Street Address Form Group"
@@ -84,7 +84,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"street_1_label\" for=\"street_1\">Street 1</label>",
-			"    <input id=\"street_1\" name=\"street_1\" type=\"text\" class=\"form-control\" aria-label=\"Street 1\" />",
+			"    <input id=\"street_1\" name=\"street_1\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Street 1 Form Group"
@@ -94,7 +94,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"street_2_label\" for=\"street_2\">Street 2</label>",
-			"    <input id=\"street_2\" name=\"street_2\" type=\"text\" class=\"form-control\" aria-label=\"Street 2\" />",
+			"    <input id=\"street_2\" name=\"street_2\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Street 2 Form Group"
@@ -104,7 +104,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"street_3_label\" for=\"street_3\">Street 3</label>",
-			"    <input id=\"street_3\" name=\"street_3\" type=\"text\" class=\"form-control\" aria-label=\"Street 3\" />",
+			"    <input id=\"street_3\" name=\"street_3\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Street 3 Form Group"
@@ -114,7 +114,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"city_label\" for=\"city\">City</label>",
-			"    <input id=\"city\" name=\"city\" type=\"text\" class=\"form-control\" aria-label=\"City\" />",
+			"    <input id=\"city\" name=\"city\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "City Form Group"
@@ -124,7 +124,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"state_label\" for=\"state\">State/Province</label>",
-			"    <input id=\"state\" name=\"state\" type=\"text\" class=\"form-control\" aria-label=\"State\" />",
+			"    <input id=\"state\" name=\"state\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "State Form Group"
@@ -134,7 +134,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"country_label\" for=\"country\">Country</label>",
-			"    <input id=\"country\" name=\"country\" type=\"text\" class=\"form-control\" aria-label=\"Country\" />",
+			"    <input id=\"country\" name=\"country\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Country Form Field"
@@ -144,7 +144,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"county_label\" for=\"county\">County</label>",
-			"    <input id=\"county\" name=\"county\" type=\"text\" class=\"form-control\" aria-label=\"County\" />",
+			"    <input id=\"county\" name=\"county\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "County Form Field"
@@ -154,7 +154,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"id_label\" for=\"id\">$1 ID</label>",
-			"    <input id=\"id\" name=\"id\" type=\"text\" class=\"form-control\" aria-label=\"$1 ID\" />",
+			"    <input id=\"id\" name=\"id\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Bootstrap ID Form Field"
@@ -164,7 +164,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"major_label\" for=\"major\">Major</label>",
-			"    <input id=\"major\" name=\"major\" type=\"text\" class=\"form-control\" aria-label=\"Major\" />",
+			"    <input id=\"major\" name=\"major\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Bootstrap Major Form Field"
@@ -174,7 +174,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"gpa_label\" for=\"gpa\">GPA</label>",
-			"    <input id=\"gpa\" name=\"gpa\" type=\"text\" class=\"form-control\" aria-label=\"GPA\" />",
+			"    <input id=\"gpa\" name=\"gpa\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Bootstrap GPA Form Field"
@@ -184,7 +184,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"signature_label\" for=\"signature\">Signature</label>",
-			"    <input id=\"signature\" name=\"signature\" type=\"text\" class=\"form-control\" aria-label=\"Signature\" />",
+			"    <input id=\"signature\" name=\"signature\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Bootstrap Signature Form Field"
@@ -194,7 +194,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"date_label\" for=\"date\">Date</label>",
-			"    <input id=\"date\" name=\"date\" type=\"text\" class=\"form-control\" aria-label=\"Date\" />",
+			"    <input id=\"date\" name=\"date\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Bootstrap Date Form Field"
@@ -204,7 +204,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"time_label\" for=\"time\">Time</label>",
-			"    <input id=\"time\" name=\"time\" type=\"text\" class=\"form-control\" aria-label=\"Time\" />",
+			"    <input id=\"time\" name=\"time\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Bootstrap Time Form Field"
