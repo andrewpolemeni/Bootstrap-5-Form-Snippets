@@ -38,8 +38,8 @@ Trigger | Description
 *fg-select |
 *fg-file-upload |
 *fg-amount |
-*fg-radio-button |
-*fg-checkbox |
+*fc-radio-button |
+*fc-checkbox |
 
 ## Source
 
