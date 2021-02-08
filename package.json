@@ -2,7 +2,7 @@
 	"name": "bootstrap-5-form-snippets",
 	"displayName": "Bootstrap 5 Form Snippets",
 	"description": "Over 25 Generic Bootstrap 5 Form Fields",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "andrewpolemeni",
 	"license":"MIT",
 	"homepage": "https://github.com/andrewpolemeni/Bootstrap-5-Form-Snippets",
@@ -19,7 +19,7 @@
 	},
 	"scripts": {
 		"package": "npx vsce package",
-		"snip": "code --install-extension bootstrap-5-form-snippets-0.0.1.vsix",
+		"snip": "code --install-extension bootstrap-5-form-snippets-0.0.2.vsix",
 		"test": "npx vsce package && npm run snip",
 		"pre-publish": "npx vsce package && npm run snip"
 	},
