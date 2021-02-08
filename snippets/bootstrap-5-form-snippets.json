@@ -4,7 +4,7 @@
 		"body": [
 			"<div class=\"mb-3\">",
 			"    <label id=\"$1_label\" for=\"$1\">${2}</label>",
-			"    <input id=\"$1\" name=\"$1\" type=\"text\" class=\"form-control\" aria-label=\/${2}\" />",
+			"    <input id=\"$1\" name=\"$1\" type=\"text\" class=\"form-control\" />",
 			"</div>"
 		],
 		"description": "Blank Form Group"
