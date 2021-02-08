@@ -18,11 +18,10 @@
 		"json-concat": "^0.0.1"
 	},
 	"scripts": {
-		"concat": "node_modules\\.bin\\json-concat snippets/types/*.json snippets/snippets.json",
 		"package": "npx vsce package",
 		"snip": "code --install-extension bootstrap-5-form-snippets-0.0.1.vsix",
 		"test": "npx vsce package && npm run snip",
-		"prePublish": "npm run concat && npx vsce package && npm run snip"
+		"pre-publish": "npx vsce package && npm run snip"
 	},
 	"galleryBanner": {
         "color": "#ffffff",
