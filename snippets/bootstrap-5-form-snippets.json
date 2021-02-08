@@ -59,6 +59,16 @@
 		],
 		"description": "Email Form Group"
 	},
+	"Bootstrap 5: Password Form Group": {
+		"prefix": "*fg-password",
+		"body": [
+			"<div class=\"mb-3\">",
+			"    <label id=\"password_label\" for=\"password\">Password</label>",
+			"    <input id=\"password\" name=\"password\" type=\"password\" class=\"form-control\" />",
+			"</div>"
+		],
+		"description": "Email Form Group"
+	},
 	"Bootstrap 5: Phone Form Group": {
 		"prefix": "*fg-phone",
 		"body": [
